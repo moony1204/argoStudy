@@ -1,3 +1,3 @@
-FROM ngnix
+FROM nginx
 
-COPY test.html /usr/share/ngnix/html
+COPY test.html /usr/share/nginx/html
