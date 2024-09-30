@@ -7,7 +7,7 @@ on:
 
 env:
   dockerimage_tag: ${{ github.sha }}
-  dockerimage_name: moony1204/argoStudy
+  dockerimage_name: moony1204/argostudy
 jobs:
   build:
     runs-on: ubuntu-latest
